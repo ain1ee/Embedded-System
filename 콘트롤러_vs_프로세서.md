@@ -194,7 +194,7 @@ MCU와 MPU를 구분하는 가장 중요한 기준은 **CPU 외에 메모리와 
 
 최근에는 ESP32와 같이 32비트 MCU를 사용하는 보드도 아두이노 개발 환경(Arduino IDE)에서 많이 활용되고 있다.
 
-**핵심:** 아두이노는 보드마다 사용하는 칩셋이 다르지만, 대부분 **마이크로컨트롤러(MCU)**를 사용한다.
+**핵심:** 아두이노는 보드마다 사용하는 칩셋이 다르지만, 대부분 마이크로컨트롤러(MCU)를 사용한다.
 
 ---
 
@@ -229,7 +229,7 @@ MCU와 MPU를 구분하는 가장 중요한 기준은 **CPU 외에 메모리와 
 
 ### 4.2 16·32비트 칩셋에서 사용하는 소프트웨어
 
-16·32비트 칩셋은 성능이 향상되어 다양한 개발 환경과 운영체제를 사용할 수 있다. MCU에서는 Bare Metal이나 **RTOS(Real-Time Operating System)**를 주로 사용하며, MPU에서는 Linux, Windows, Android와 같은 운영체제를 실행할 수 있다.
+16·32비트 칩셋은 성능이 향상되어 다양한 개발 환경과 운영체제를 사용할 수 있다. MCU에서는 Bare Metal이나 RTOS(Real-Time Operating System)를 주로 사용하며, MPU에서는 Linux, Windows, Android와 같은 운영체제를 실행할 수 있다.
 
 대표적인 개발 환경과 프로그래밍 언어는 다음과 같다.
 
@@ -246,7 +246,7 @@ MCU와 MPU를 구분하는 가장 중요한 기준은 **CPU 외에 메모리와 
 
 ### 5.1 Physical Address와 Virtual Address
 
-컴퓨터는 메모리를 효율적으로 관리하기 위해 **Physical Address(물리 주소)**와 **Virtual Address(가상 주소)**를 사용한다.
+컴퓨터는 메모리를 효율적으로 관리하기 위해 Physical Address(물리 주소)와 Virtual Address(가상 주소)를 사용한다.
 
 - **Physical Address** : 실제 RAM에 존재하는 메모리 주소
 - **Virtual Address** : 프로그램이 사용하는 가상의 메모리 주소
